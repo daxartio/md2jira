@@ -1,0 +1,36 @@
+site_name: "md2jira"
+site_url: "https://pypi.org/project/md2jira"
+site_description: "Markdown to jira"
+
+repo_name: "md2jira"
+repo_url: "https://github.com/daxartio/md2jira"
+edit_uri: "edit/main/docs/"
+
+copyright: "Copyright &copy; 2022 Danil Akhtarov <daxartio@gmail.com>"
+
+nav:
+  - "Home": README.md
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: black
+    accent: yellow
+
+plugins:
+  - search:
+      lang: en
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+      watch:
+        - "md2jira"
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
