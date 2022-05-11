@@ -12,3 +12,11 @@ pip install md2jira
 ## Contributing
 
 [Contributing](CONTRIBUTING.md)
+
+## Get started
+
+```
+md2jira --help
+```
+
+This project was forked
