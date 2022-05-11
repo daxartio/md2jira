@@ -9,6 +9,12 @@
 pip install md2jira
 ```
 
+Also try `pandoc`
+
+```
+pandoc in.md -o out.txt --to jira
+```
+
 ## Contributing
 
 [Contributing](CONTRIBUTING.md)
